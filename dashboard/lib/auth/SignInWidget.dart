@@ -171,7 +171,7 @@ class _SignInState extends State<SignIn> {
     if (password == null || password == "") {
       setState(() {
         this.passwordValid = false;
-        this.passwordErrorText = tr("Enter your password!");
+        this.passwordErrorText = tr("Enter your password! (can be anything)");
       });
     }
 
